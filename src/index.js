@@ -15,6 +15,7 @@ import LandingPage from "./chapter_09/LandingPage";
 import AttendanceBook from "./chapter_10/AttendanceBook";
 import ReportWebVitals from "./reportWebVitals";
 import Reservation from "./chapter_11/Reservation";
+import SignUp from "./chapter_11/SignUp";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -29,6 +30,7 @@ root.render(
     <LandingPage />
     <AttendanceBook />
     <Reservation />
+    <SignUp />
   </React.StrictMode>
 );
 
